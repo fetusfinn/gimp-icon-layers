@@ -1,13 +1,18 @@
-### GIMP 3 Create Scaled .ico Layers
+## GIMP 3 Create Scaled .ico Layers
 This is a plugin for [GIMP 3](https://www.gimp.org/) that creates up to 4 copies of the selected layer, and scales them to the chosen sizes, so that the image can then be exported to a .ico with the different layers used for the different possible icon sizes.
 
-#### Installation
+### Installation
 To install, first locate your plugins folder, this can be done by going to `Edit -> Preferences -> Folders (at the very bottom) -> Plug-ins` and you'll find the paths to the different locations, or you can even add your own. Once you've found the folder, create a new folder inside of it and give it the same name as the script, minus the `.py`, then drop the plugin in it and you're done.
 
-#### Usage
+### Usage
 The plugin can be found under `Layer -> Create Icon Layers`.
+
 To use the plugin, just enter the the sizes of the icons you wish to create, and hit OK. 
+
 If you don't want to create all 4 layers, then just toggle them via the checkboxes.
 
-![[gif-1.gif]]
-![[gif-2.gif]]
+### Notes
+The min and max sizes you can use are 16px and 512px respectively, this is because .ico sizes outside this range aren't needed and might not even work.
+
+![gif-1](https://github.com/user-attachments/assets/774d8d99-54c8-4be7-a8ef-e09ac09d49d7)
+![gif-2](https://github.com/user-attachments/assets/15e2c152-5f94-4d0e-8429-33861c1621a7)
